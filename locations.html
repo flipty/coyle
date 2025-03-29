@@ -1,0 +1,533 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>Coyle Appliance Repair</title>
+    <meta name="robots" content="index, follow">
+    <meta name="keywords" content="minneapolis appliance repair, st paul appliance repair, anoka county appliance repair, hennepin county appliance repair, st croix county appliance reapir, dakota county appliance repair, twin cities appliance repair, washington county appliance repair">
+    <meta name="description" content="Coyle Appliance Repair - Servicing the Twin Cities Metro Area's commercial and residental appliance, refrigeration, heating, HVAC and air conditioner repair needs for all brands.">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.min.css">
+    <script src="js/app.min.js" async></script>
+</head>
+
+<body>
+    <div class="pageFade"></div>
+    <div class="statusModal">
+        <div class="statusContent">
+            <h2 id="headerStatus"></h2>
+            <p id="status"></p><a id="okayButton" href="javascript:void(0);">Okay</a>
+        </div>
+    </div>
+    <div class="loader">
+        <div class="loaderContent">
+            <h2>SUBMITTING...</h2>
+        </div>
+    </div>
+    <div class="modal"><a class="closeModal"></a>
+        <div class="modalContent">
+            <h2>Make an Appointment</h2>
+            <p class="formLabel">Your Name</p><input type="text" class="text" id="name">
+            <p class="formLabel">Address (Street, City, ST ZIP)</p><input type="text" class="text" id="address">
+            <p class="formLabel">Phone (XXX-XXX-XXXX)</p><input type="text" class="text" id="phone">
+            <p class="formLabel">Phone (Alternate)</p><input type="text" class="text" id="alternatePhone">
+            <p class="formLabel">E-Mail</p><input type="text" class="text" id="email">
+            <p class="formLabel">Describe the problem you are experiencing</p><textarea id="problem"></textarea>
+            <p class="formLabel">Your preferred appoinment time</p><input type="text" class="text" id="preferredTime">
+            <div class="submitAppointment"><a href="javascript:void(0);">Submit Request</a></div>
+        </div>
+    </div>
+    <div class="pageWrapper">
+        <header>
+            <div class="logo"><a href="index.html" title="Coyle Appliance Repair"></a></div>
+            <div class="phoneNumber">
+                <h3>call today for an appointment</h3>
+                <h1><a href="tel:+1-952-461-1253">952-461-1253</a></h1>
+                <h4><a href="equipment.html">View our complete list of serviceable equipment!</a></h4>
+            </div>
+            <div class="greyStrip">
+                <h2>Serving the Twin Cities metro area since 1982</h2>
+            </div>
+        </header>
+        <div class="mainContent extendable">
+            <div class="genericContent">
+                <h1>ANOKA COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Andover</li>
+                        <li>Anoka</li>
+                        <li>Bethel</li>
+                        <li>Blaine</li>
+                        <li>Burns</li>
+                        <li>Cedar</li>
+                        <li>Circle Pines</li>
+                        <li>Columbia Heights</li>
+                        <li>Columbus</li>
+                        <li>Coon Rapids</li>
+                        <li>East Bethel</li>
+                        <li>Fridley</li>
+                        <li>Ham Lake</li>
+                        <li>Hilltop</li>
+                        <li>Lexington</li>
+                        <li>Lino Lakes</li>
+                        <li>Linwood</li>
+                        <li>Minneapolis</li>
+                        <li>Oak Grove</li>
+                        <li>Ramsey</li>
+                        <li>Spring Lake Park</li>
+                        <li>St. Anthony</li>
+                        <li>St. Francis</li>
+                    </ul>
+                </div>
+                <h1>WASHINGTON COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Afton</li>
+                        <li>Bayport</li>
+                        <li>Baytown</li>
+                        <li>Birchwood Village</li>
+                        <li>Centerville</li>
+                        <li>Cottage Grove</li>
+                        <li>Denmark</li>
+                        <li>Douglas</li>
+                        <li>Forest Lake</li>
+                        <li>Grant</li>
+                        <li>Grey Cloud Island</li>
+                        <li>Hugo</li>
+                        <li>Lake Elmo</li>
+                        <li>Lake St. Croix Beach</li>
+                        <li>Lakeland</li>
+                        <li>Lakeland Shores</li>
+                        <li>Landfall</li>
+                        <li>Lino Lakes</li>
+                        <li>Mahtomedi</li>
+                        <li>Marine on St. Croix</li>
+                        <li>May</li>
+                        <li>New Scandia</li>
+                        <li>Newport</li>
+                        <li>Oak Park Heights</li>
+                        <li>Oakdale</li>
+                        <li>Pine Springs</li>
+                        <li>Scandia</li>
+                        <li>St. Marys Point</li>
+                        <li>St. Paul Park</li>
+                        <li>Stacy</li>
+                        <li>Stillwater</li>
+                        <li>West Lakeland</li>
+                        <li>White Bear Lake</li>
+                        <li>Willernie</li>
+                        <li>Woodbury</li>
+                    </ul>
+                </div>
+                <h1>DAKOTA COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Apple Valley</li>
+                        <li>Burnsville</li>
+                        <li>Castle Rock</li>
+                        <li>Coates</li>
+                        <li>Eagan</li>
+                        <li>Empire</li>
+                        <li>Eureka</li>
+                        <li>Farmington</li>
+                        <li>Greenvale</li>
+                        <li>Hampton</li>
+                        <li>Hastings</li>
+                        <li>Inver Grove Heights</li>
+                        <li>Lakeville</li>
+                        <li>Lilydale</li>
+                        <li>Marshan</li>
+                        <li>Mendota</li>
+                        <li>Mendota Heights</li>
+                        <li>New Trier</li>
+                        <li>Nininger</li>
+                        <li>Randolph</li>
+                        <li>Ravenna</li>
+                        <li>Rosemount</li>
+                        <li>Savage</li>
+                        <li>Sciota</li>
+                        <li>St. Paul</li>
+                        <li>Sunfish Lake</li>
+                        <li>Vermillion</li>
+                    </ul>
+                </div>
+                <h1>RAMSEY COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Arden Hills</li>
+                        <li>Dellwood</li>
+                        <li>Falcon Heights</li>
+                        <li>Gem Lake</li>
+                        <li>Lauderdale</li>
+                        <li>Lino Lakes</li>
+                        <li>Little Canada</li>
+                        <li>Maplewood</li>
+                        <li>Mounds View</li>
+                        <li>New Brighton</li>
+                        <li>North Oaks</li>
+                        <li>North St. Paul</li>
+                        <li>Roseville</li>
+                        <li>Shoreview</li>
+                        <li>St. Paul</li>
+                        <li>Vadnais Heights</li>
+                        <li>West St. Paul</li>
+                        <li>White Bear</li>
+                        <li>White Bear Lake</li>
+                    </ul>
+                </div>
+                <h1>HENNEPIN COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Bloomington</li>
+                        <li>Brooklyn Center</li>
+                        <li>Brooklyn Park</li>
+                        <li>Champlin</li>
+                        <li>Corcoran</li>
+                        <li>Crystal</li>
+                        <li>Crystal Bay</li>
+                        <li>Dayton</li>
+                        <li>Deephaven</li>
+                        <li>Eden Prairie</li>
+                        <li>Edina</li>
+                        <li>Excelsior</li>
+                        <li>Fort Snelling</li>
+                        <li>Golden Valley</li>
+                        <li>Greenfield</li>
+                        <li>Greenwood</li>
+                        <li>Hassan</li>
+                        <li>Hopkins</li>
+                        <li>Howard Lake</li>
+                        <li>Independence</li>
+                        <li>Long Lake</li>
+                        <li>Loretto</li>
+                        <li>Maple Grove</li>
+                        <li>Maple Plain</li>
+                        <li>Medicine Lake</li>
+                        <li>Medina</li>
+                        <li>Minneapolis</li>
+                        <li>Minnetonka</li>
+                        <li>Minnetonka Beach</li>
+                        <li>Minnetrista</li>
+                        <li>Mound</li>
+                        <li>New Hope</li>
+                        <li>Orono</li>
+                        <li>Osseo</li>
+                        <li>Plymouth</li>
+                        <li>Richfield</li>
+                        <li>Robbinsdale</li>
+                        <li>Rockford</li>
+                        <li>Rogers</li>
+                        <li>Shorewood</li>
+                        <li>Spring Park</li>
+                        <li>St. Anthony</li>
+                        <li>St. Bonifacius</li>
+                        <li>St. Louis Park</li>
+                        <li>Tonka Bay</li>
+                        <li>Wayzata</li>
+                        <li>Woodland</li>
+                        <li>Young America</li>
+                    </ul>
+                </div>
+                <h1>SCOTT COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Belle Plaine</li>
+                        <li>Jordan</li>
+                        <li>Elko</li>
+                        <li>New Market</li>
+                        <li>New Prague</li>
+                        <li>Prior Lake</li>
+                        <li>Savage</li>
+                        <li>Shakopee</li>
+                        <li>Belle Plaine</li>
+                        <li>Blakeley</li>
+                        <li>Cedar Lake</li>
+                        <li>Credit River</li>
+                        <li>Helena</li>
+                        <li>Jackson</li>
+                        <li>Louisville</li>
+                        <li>New Market</li>
+                        <li>St. Lawrence</li>
+                        <li>Sand Creek</li>
+                        <li>Spring Lake</li>
+                    </ul>
+                </div>
+                <h1>CARVER COUNTY</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>Carver</li>
+                        <li>Chanhassen</li>
+                        <li>Watertown</li>
+                        <li>Benton Township</li>
+                        <li>Camden Township</li>
+                        <li>Dahlgren Township</li>
+                        <li>Hancock Township</li>
+                        <li>Hollywood Township</li>
+                        <li>Laketown Township</li>
+                        <li>San Francisco Township</li>
+                        <li>Waconia Township</li>
+                        <li>Watertown Township</li>
+                        <li>Young America Township</li>
+                        <li>Augusta</li>
+                        <li>San Francisco</li>
+                        <li>Bongards</li>
+                        <li>Assumption</li>
+                    </ul>
+                </div>
+                <h1>ZIP CODES</h1>
+                <div class="listContainer">
+                    <ul class="genericList">
+                        <li>55005</li>
+                        <li>55011</li>
+                        <li>55014</li>
+                        <li>55025</li>
+                        <li>55038</li>
+                        <li>55070</li>
+                        <li>55079</li>
+                        <li>55092</li>
+                        <li>55110</li>
+                        <li>55126</li>
+                        <li>55303</li>
+                        <li>55304</li>
+                        <li>55330</li>
+                        <li>55421</li>
+                        <li>55432</li>
+                        <li>55433</li>
+                        <li>55434</li>
+                        <li>55448</li>
+                        <li>55449</li>
+                        <li>55009</li>
+                        <li>55018</li>
+                        <li>55024</li>
+                        <li>55031</li>
+                        <li>55033</li>
+                        <li>55044</li>
+                        <li>55057</li>
+                        <li>55065</li>
+                        <li>55068</li>
+                        <li>55075</li>
+                        <li>55076</li>
+                        <li>55077</li>
+                        <li>55088</li>
+                        <li>55089</li>
+                        <li>55118</li>
+                        <li>55120</li>
+                        <li>55121</li>
+                        <li>55122</li>
+                        <li>55123</li>
+                        <li>55124</li>
+                        <li>55306</li>
+                        <li>55337</li>
+                        <li>55315</li>
+                        <li>55317</li>
+                        <li>55318</li>
+                        <li>55322</li>
+                        <li>55328</li>
+                        <li>55331</li>
+                        <li>55338</li>
+                        <li>55339</li>
+                        <li>55360</li>
+                        <li>55363</li>
+                        <li>55367</li>
+                        <li>55368</li>
+                        <li>55386</li>
+                        <li>55387</li>
+                        <li>55388</li>
+                        <li>55395</li>
+                        <li>55397</li>
+                        <li>56011</li>
+                        <li>55111</li>
+                        <li>55305</li>
+                        <li>55311</li>
+                        <li>55316</li>
+                        <li>55327</li>
+                        <li>55328</li>
+                        <li>55331</li>
+                        <li>55340</li>
+                        <li>55341</li>
+                        <li>55343</li>
+                        <li>55344</li>
+                        <li>55345</li>
+                        <li>55346</li>
+                        <li>55347</li>
+                        <li>55356</li>
+                        <li>55357</li>
+                        <li>55359</li>
+                        <li>55364</li>
+                        <li>55369</li>
+                        <li>55373</li>
+                        <li>55374</li>
+                        <li>55375</li>
+                        <li>55384</li>
+                        <li>55387</li>
+                        <li>55388</li>
+                        <li>55391</li>
+                        <li>55401</li>
+                        <li>55402</li>
+                        <li>55403</li>
+                        <li>55404</li>
+                        <li>55405</li>
+                        <li>55406</li>
+                        <li>55407</li>
+                        <li>55408</li>
+                        <li>55409</li>
+                        <li>55410</li>
+                        <li>55411</li>
+                        <li>55412</li>
+                        <li>55413</li>
+                        <li>55414</li>
+                        <li>55415</li>
+                        <li>55416</li>
+                        <li>55417</li>
+                        <li>55418</li>
+                        <li>55419</li>
+                        <li>55420</li>
+                        <li>55421</li>
+                        <li>55422</li>
+                        <li>55423</li>
+                        <li>55424</li>
+                        <li>55425</li>
+                        <li>55426</li>
+                        <li>55427</li>
+                        <li>55428</li>
+                        <li>55429</li>
+                        <li>55430</li>
+                        <li>55431</li>
+                        <li>55435</li>
+                        <li>55436</li>
+                        <li>55437</li>
+                        <li>55438</li>
+                        <li>55439</li>
+                        <li>55441</li>
+                        <li>55442</li>
+                        <li>55443</li>
+                        <li>55444</li>
+                        <li>55445</li>
+                        <li>55446</li>
+                        <li>55447</li>
+                        <li>55449</li>
+                        <li>55450</li>
+                        <li>55454</li>
+                        <li>55455</li>
+                        <li>55101</li>
+                        <li>55102</li>
+                        <li>55103</li>
+                        <li>55104</li>
+                        <li>55105</li>
+                        <li>55106</li>
+                        <li>55107</li>
+                        <li>55108</li>
+                        <li>55109</li>
+                        <li>55110</li>
+                        <li>55112</li>
+                        <li>55113</li>
+                        <li>55114</li>
+                        <li>55116</li>
+                        <li>55117</li>
+                        <li>55118</li>
+                        <li>55119</li>
+                        <li>55126</li>
+                        <li>55127</li>
+                        <li>55130</li>
+                        <li>55418</li>
+                        <li>55421</li>
+                        <li>55432</li>
+                        <li>55449</li>
+                        <li>55001</li>
+                        <li>55003</li>
+                        <li>55016</li>
+                        <li>55025</li>
+                        <li>55033</li>
+                        <li>55038</li>
+                        <li>55042</li>
+                        <li>55043</li>
+                        <li>55047</li>
+                        <li>55055</li>
+                        <li>55071</li>
+                        <li>55073</li>
+                        <li>55082</li>
+                        <li>55110</li>
+                        <li>55115</li>
+                        <li>55125</li>
+                        <li>55128</li>
+                        <li>55129</li>
+                        <li>54005</li>
+                        <li>54701</li>
+                        <li>54703</li>
+                        <li>54721</li>
+                        <li>54724</li>
+                        <li>54725</li>
+                        <li>54728</li>
+                        <li>54730</li>
+                        <li>54734</li>
+                        <li>54737</li>
+                        <li>54739</li>
+                        <li>54740</li>
+                        <li>54749</li>
+                        <li>54751</li>
+                        <li>54755</li>
+                        <li>54757</li>
+                        <li>54762</li>
+                        <li>54763</li>
+                        <li>54767</li>
+                        <li>54772</li>
+                        <li>54002</li>
+                        <li>54005</li>
+                        <li>54007</li>
+                        <li>54013</li>
+                        <li>54015</li>
+                        <li>54016</li>
+                        <li>54017</li>
+                        <li>54020</li>
+                        <li>54022</li>
+                        <li>54023</li>
+                        <li>54025</li>
+                        <li>54026</li>
+                        <li>54027</li>
+                        <li>54028</li>
+                        <li>54082</li>
+                        <li>54734</li>
+                        <li>54749</li>
+                        <li>54767</li>
+                        <li>54003</li>
+                        <li>54011</li>
+                        <li>54014</li>
+                        <li>54021</li>
+                        <li>54022</li>
+                        <li>54721</li>
+                        <li>54723</li>
+                        <li>54740</li>
+                        <li>54750</li>
+                        <li>54761</li>
+                        <li>54767</li>
+                        <li>54769</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="scheduleAppointment"><a id="schedule" href="javascript:void(0);">Schedule an Appointment</a></div>
+        </div>
+        <footer>
+            <h3>Coyle Appliance Repair - 8285 250th St. E - Elko, MN 55020 - <a href="tel:+1-952-461-1253">952-461-1253</a> - <!--Call 24 Hours A Day--> Business hours 9am-4pm</h3>
+        </footer>
+        <script>
+        (function(i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function() {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date();
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-23407373-1', 'auto');
+        ga('send', 'pageview');
+        </script>
+    </div>
+</body>
+
+</html>

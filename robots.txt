@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /index.html
+Allow: /brands.html
+Allow: /locations.html
+Allow: /equipment.html
+
+# Sitemap hint
+Sitemap: http://www.coyleappliancerepair.com/sitemap.xml
